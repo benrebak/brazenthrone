@@ -1,0 +1,27 @@
+		{
+			"name": "public-brazenthrone-module",
+			"title": "Brazenthrone Public Module - Milby's Maps",
+			"description": "The Dwarven City of Brazenthrone - Maps, Annotations and DM notes",
+			"author": "Matt Milby (Milby's Maps)",
+			"version": "1.0.2",
+			"minimumCoreVersion": "0.6.0",
+			"compatibleCoreVersion":"1.0.0",
+			"packs": [
+    					{
+      					"name": "brazenthrone-public-module",
+      					"label": "Brazenthrone Public Module - Milby's Maps",
+      					"path": "packs/brazenthrone-public-module.db",
+      					"entity": "Scene",
+      					"module": "public-brazenthrone-module"
+				  },
+    {
+      "name": "brazenthrone-public-module-journal",
+      "label": "Brazenthrone Public Module - Journals",
+      "path": "packs/brazenthrone-public-module-journal.db",
+      "module": "public-brazenthrone-module",
+      "entity": "JournalEntry"
+    }
+  ],
+  "manifest": "http://modules.milbysmaps.com/BTPublic/module.json",   
+  "download": "http://modules.milbysmaps.com/BTPublic/public-brazenthrone-module.zip" 
+}
